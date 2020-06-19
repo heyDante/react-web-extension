@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -22,6 +23,11 @@ module.exports = {
       filename: "popup.html",
       inject: true,
       chunks: ["popup"]
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: "manifest.json", to: "."}
+      ]
     })
   ],
   mode: "development"
