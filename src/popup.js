@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Message from './Message';
+
 ReactDOM.render(
-  <h1>Hello React Web Extension</h1>,
+  <Message />,
   document.getElementById('root')
 );
