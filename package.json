@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/heyDante/react-web-extension#readme",
   "dependencies": {
+    "nicejob": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
