@@ -1,0 +1,24 @@
+{
+  "name": "react-web-extension",
+  "version": "1.0.0",
+  "description": "Creating web extensions with react.",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyDante/react-web-extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyDante/react-web-extension/issues"
+  },
+  "homepage": "https://github.com/heyDante/react-web-extension#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
